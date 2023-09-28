@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen Programacion 1</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>Programacion 1 - Trabajo Practico - Manejo de Textos</h1>
+  <label>Introduzca un texto (max: 25 caracteres): </label>
+  <input type="text" id="texto-original" minlength="1" maxlength="25">
+  <input type="button" value="Aceptar" id="boton-texto" onclick="iniciar()">
+  <hr>
+
+
+  <label>Inicio - Porcion </label>
+  <input type="number" id="inicio">
+  <label>Fin - Porcion </label>
+  <input type="number" id="fin">
+  <input type="button" value="Parte-de-Texto" id="boton x" onclick="porcion_texto()">
+  <div id="resultado-metodo x"></div>
+  <hr>
+
+
+  <label>Palabra del texto que desea reemplazar: </label>
+  <input type="text" id="palabra-del-texto">
+  <label>Palabra nueva: </label>
+  <input type="text" id="palabra-nueva">
+  <input type="button" value="Reemplaza-Palabra" id="boton-x" onclick="reemplazar_palabra()">
+  <div id="resultado x"></div>
+  <hr>
+
+
+  <label>Ingrese la palabra que desea verificar si esta en el texto: </label>
+  <input type="text" id="palabra-a-verificar">
+  <input type="button" value="Verifica-Palabra" id="botonX" onclick="verificar_palabra()">
+  <div id="resultadoX"></div>
+
+
+  <script src="code.js"></script>
+  <div>
+    <footer>
+      <p>&copy; Programacion 1 - Prof. Carlos Gonzales</p>
+    </footer>
+  </div>     
+</body>
+</html>

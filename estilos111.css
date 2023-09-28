@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin:60px
+}
+
+label{
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+input{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: mediumblue;
+}
+
+h1{
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+div{
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: right;
+    font-size: 12px;
+    margin-top: 90px;
+    color: white;
+}
+
+
